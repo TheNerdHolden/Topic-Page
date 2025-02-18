@@ -11,3 +11,6 @@ body {
     font-size: 1.6rem;
     font-family: 'Gentium Book Plus', serif;
 }
+p {
+    margin-bottom: .67em;
+  }
