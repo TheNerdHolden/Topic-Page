@@ -17,3 +17,6 @@ p {
   nav, footer {
     background-color: #000000;
   }
+.logo {
+    border-radius: 50%;
+}
