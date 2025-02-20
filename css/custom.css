@@ -14,9 +14,34 @@ body {
 p {
     margin-bottom: .67em;
   }
-  nav, footer {
+  nav {
     background-color: #000000;
+    color: #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
   }
-.logo {
+nav div {
+    display: flex;
+}
+nav img {
+    height: 6rem;
+    width: auto;
     border-radius: 50%;
+}
+.logo {
+    align-items: center;
+    font-size: 4rem;
+    gap: 2rem;
+}
+.links {
+    gap: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
