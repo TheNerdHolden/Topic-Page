@@ -15,7 +15,7 @@ p {
     margin-bottom: .67em;
   }
 /*-- nav bar styles --*/
-nav {
+nav, footer {
     background-color: #000000;
     color: #EAEAEA;
     display: flex;
@@ -47,6 +47,7 @@ header {
     text-align: center;
     font-family: "Open Sans", serif;
     font-weight: 400;
+    font-size: 4rem;
 }
 header img {
     height: 600;
@@ -55,7 +56,8 @@ header img {
 }
 header h1 {
     margin: 0 auto;
-    padding: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 /*-- Section styles --*/
 
