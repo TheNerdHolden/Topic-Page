@@ -54,11 +54,27 @@ header h1 {
     margin: 0 auto;
     padding: 0 auto;
 }
-/*-- Section 1 style --*/
+/*-- Section 1 styles --*/
 
-section{
+.block1 {
     display: flex;
     padding: 2rem 4rem;
+    background-color: #0b2a45;
+    padding: 2rem;
+    text-align: center;
+}
+.block1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.block1 h1 {
+    margin-top: 32px;
+    font-size: 24px;
+}
+.block1 p {
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
