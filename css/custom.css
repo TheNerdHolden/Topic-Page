@@ -54,6 +54,12 @@ header h1 {
     margin: 0 auto;
     padding: 0 auto;
 }
+/*-- Section 1 style --*/
+
+section{
+    display: flex;
+    padding: 1rem 2rem;
+}
 
 @media screen and (max-width: 768px) {
     nav {
