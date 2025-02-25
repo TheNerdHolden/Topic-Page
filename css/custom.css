@@ -39,6 +39,11 @@ nav img {
 .links {
     gap: 4rem;
 }
+
+main {
+    max-width: 86vw;
+    margin: auto auto;
+}
 /*-- Hero Unit Style --*/
 header {
     margin-top: 2rem;
@@ -61,10 +66,35 @@ header h1 {
 }
 /*-- Section styles --*/
 
+section {
+    display: grid;
+    margin: 3rem auto;
+    grid-gap: 3rem;
+}
+
+section.odd {
+    grid-template-columns: 7fr 5fr;
+}
+
+section.even{
+    grid-template-columns: 4fr 8fr;
+}
+div.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
         gap: 2rem;
+    }
+    section.even, section.odd {
+        grid-template-columns: 1fr;
+    }
+    section.even div.pic {
+        order: -1;
     }
 }
