@@ -84,7 +84,7 @@ section.two{
     grid-template-columns: 5fr 7fr;
 }
 section.three {
-    grid-template-columns: 8fr 4fr;
+    grid-template-columns: 1fr 1fr;
 }
 .three .pic {
    background-image: url(../img/large.jpg);
@@ -98,7 +98,15 @@ div.text {
     flex-direction: column;
     justify-content: center;
 }
-
+.more-links {
+    background-color: #000000;
+    color: #EAEAEA;
+    width: 16rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 @media screen and (max-width: 768px) {
     nav {
