@@ -110,7 +110,7 @@ div.text {
     border-radius: 2rem;
     border: 2px solid #EAEAEA;
     opacity: .7;
-    transition: all .3s ease-in;
+    transition: all .15s ease-in;
 }
 .more-links:hover {
     opacity: 1;
