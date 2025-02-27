@@ -72,11 +72,11 @@ section {
     grid-gap: 3rem;
 }
 
-section.odd {
+section.one, section.three {
     grid-template-columns: 7fr 5fr;
 }
 
-section.even{
+section.two{
     grid-template-columns: 4fr 8fr;
 }
 div.text {
@@ -91,10 +91,10 @@ div.text {
         flex-direction: column;
         gap: 2rem;
     }
-    section.even, section.odd {
+    section.two, section.one, section.three {
         grid-template-columns: 1fr;
     }
-    section.even div.pic {
+    section.two div.pic {
         order: -1;
     }
 }
