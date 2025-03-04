@@ -123,6 +123,10 @@ section h2 {
     font-size: x-large;
 }
 
+footer {
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
