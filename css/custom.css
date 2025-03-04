@@ -120,7 +120,13 @@ div.text {
 }
 
 section h2 {
-    font-size: x-large;
+    font-size: 3.5rem;
+    font-family: "Quantico", sans-serif;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 1.75rem;
 }
 
 footer {
