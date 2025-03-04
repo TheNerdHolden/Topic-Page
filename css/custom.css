@@ -22,6 +22,7 @@ nav, footer {
     background-color: #000000;
     color: #EAEAEA;
     display: flex;
+    max-width: 100vw;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
@@ -45,11 +46,12 @@ nav img {
 }
 
 main {
-    max-width: 86vw;
+    max-width: 100vw;
     margin: auto auto;
 }
 /*-- Hero Unit Style --*/
 header {
+    max-width: 86vw;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin: auto;
@@ -71,6 +73,7 @@ header h1 {
 /*-- Section styles --*/
 
 section {
+    max-width: 86vw;
     display: grid;
     margin: 3rem auto;
     grid-gap: 3rem;
@@ -114,6 +117,10 @@ div.text {
 }
 .more-links:hover {
     opacity: 1;
+}
+
+section h2 {
+    font-size: x-large;
 }
 
 @media screen and (max-width: 768px) {
